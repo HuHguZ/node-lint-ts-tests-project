@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "lib": ["DOM", "DOM.Iterable", "WebWorker"],
+        "jsx": "preserve",
+        "outDir": "./lib",
+        "rootDir": "./",
+        "strict": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "src/*": ["./src/*"] //example
+        }
+    },
+}
